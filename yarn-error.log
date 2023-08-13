@@ -1,0 +1,36 @@
+Arguments: 
+  /home/neo/.nvm/versions/node/v18.13.0/bin/node /usr/share/yarn/bin/yarn.js init vite
+
+PATH: 
+  /home/neo/.nvm/versions/node/v18.13.0/bin:/home/neo/.rbenv/plugins/ruby-build/bin:/home/neo/.rbenv/shims:/home/neo/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/PlasticSCM5/server:/mnt/c/Program Files/PlasticSCM5/client:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/HashiCorp/Vagrant/bin:/mnt/c/Program Files/dotnet/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Perforce/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/User/AppData/Local/Programs/Python/Python39/Scripts/:/mnt/c/Users/User/AppData/Local/Programs/Python/Python39/:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/User/.console-ninja/.bin:/mnt/c/Ruby31-x64/bin:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/User/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin:/mnt/c/Users/User/.dotnet/tools:/mnt/c/Users/User/AppData/Roaming/cabal/bin:/mnt/c/ProgramData/chocolatey/lib/ghc/tools/ghc-8.10.3/bin:/mnt/c/tools/msys64:/mnt/c/Users/User/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/heroku/bin:/mnt/c/Users/User/AppData/Local/Hyper/app-3.0.2/resources/bin:/mnt/c/Users/User/AppData/Local/Programs/Hyper/resources/bin:/mnt/c/Users/User/Desktop/Hackathon/Pintitionr/flutter/bin:/mnt/c/Users/User/AppData/Local/Programs/MiKTeX/miktex/bin/x64/:/mnt/c/Users/User/Desktop/Transcripts/qpdf-10.6.3/bin:/mnt/c/Users/User/AppData/Roaming/npm:/mnt/c/ProgramData/chocolatey/lib/deno:/mnt/c/Exercism:/mnt/c/Program Files/MongoDB/Server/6.0/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:137150:13)
+      at Interface.emit (node:events:513:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1130:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:270:20)
+      at ReadStream.emit (node:events:513:28)
+      at emitKeys (node:internal/readline/utils:357:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:513:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
